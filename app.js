@@ -6,14 +6,8 @@ testConnection();
 
 const app = express();
 
-const corsOptions = {
-  origin: 'https://tree-transfer.vercel.app',
-  credentials: false,
-};
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cors(corsOptions));
 
 const treeRouter = require('./src/routes/treeRoutes');
 
