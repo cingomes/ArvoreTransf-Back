@@ -24,7 +24,7 @@ async function allData(req, res) {
         return res.json(allData);
     } catch (error) {
         console.error('Algo deu errado!', error);
-        return res.status(500).json({ error: error ,"Internal Server Error" });
+        return res.status(500).json({ error: "Internal Server Error" });
     }
 }
 

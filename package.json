@@ -15,7 +15,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.19.2",
+    "google-auth-library": "^9.14.1",
     "google-sheets-api": "^1.0.1",
-    "google-spreadsheet": "^4.1.2"
+    "google-spreadsheet": "^4.1.4",
+    "gtoken": "^7.1.0"
   }
 }
