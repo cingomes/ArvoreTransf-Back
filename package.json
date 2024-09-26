@@ -19,5 +19,8 @@
     "google-sheets-api": "^1.0.1",
     "google-spreadsheet": "^4.1.4",
     "gtoken": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
